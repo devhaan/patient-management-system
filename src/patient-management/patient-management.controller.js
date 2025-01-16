@@ -46,7 +46,6 @@ exports.getPatient = async (req, res) => {
   } else {
     patient = await Patient.find({ userId: req.user.userId });
   }
-  console.log(patient);
 
   if (!patient) return res.status(404).json({ message: "Patient not found" });
 

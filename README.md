@@ -1,5 +1,5 @@
 1. npm i
-2. env has to store in src folder
+2. env has to store in both src folder and config folder
    example:
    DB_URL=mongodb://localhost:27017/test
    JWT_SECRET=your_jwt_secret_key
